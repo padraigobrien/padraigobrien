@@ -1,54 +1,420 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Padraig O'Brien</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <div id="photo-header" class="text-center">
+            <!-- PHOTO (AVATAR) -->
+            <div id="photo">
+              <img src="img/avatar.jpg" alt="avatar">
+            </div>
+            <div id="text-header">
+              <h1>Hello,<br> my name is <span>Padraig</span> and this is my cv</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-sm-7">
+          <!-- ABOUT ME -->
+          <div class="box">
+            <h2>About Me</h2>
+            <p>Software development manager with over 15 years experience, I have worked in startups and the largest of multinationals. I have excellent management skills, coupled with a strategic outlook and proven leadership ability.</p>
+            <p>I love software development and helping teams create great software. I leverage modern project management practices such as Kanban and Lean, coupled with sotware development practices like continuous delivery and TDD to deliver high quality software.</p>
+            <p>I am looking to join a company that adopts these practices and has a focus on data products.</p>
+          </div>
+          <!-- EDUCATION -->
+          <div class="box">
+            <h2>Experience</h2>
+            <ul id="education" class="clearfix">
+              <li>
+                <div class="year pull-left">2015</div>
+                <div class="description pull-right">
+                  <h3>Wonga.com - Head of Data</h3>
+                  <p>Besides the day to day management of the 30 strong data team I was responsible for deliverying a strategy to move our data infrastructure to the cloud.</p>
+                  <p>Several programs of change were completed during my time there. </p>
+                    <ul>
+                      <li>Implementation of high availability in our production systems enabling us to have near 100% uptime.</li>
+                      <li>The creation of our audit system enabling us to become FCA compliant.</li>
+                      <li>The building of and migration off version 2 of the Wonga data platform to version 3.</li>
+                      <li>Upgrading of our data warehouse platform to the latest version of SQL Server.></li>
+                    </ul>
 
-	<title>Padraig O'Brien</title>
-	<meta name="description" content="D3">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link href="http://fonts.googleapis.com/css?family=Lobster+Two:400,700italic" rel="stylesheet" type="text/css">
-	<link rel="stylesheet" href="css/style.css">
-</head>
+                  <p>Several other programs were initiated during my time there. </p>
+                  <ul>
+                    <li>Replacing some SQL Server DB's used in our risk team with MongoDB. MongoDB was more suited to the problem and more cost effective</li>
+                    <li>Moving some of our SQL Server estate to AWS as well as moving from SQL Server to MongoDB</li>
+                  </ul>
+                </div>
+              </li>
+              <li>
+                <div class="year pull-left">2014 - 2012</div>
+                <div class="description pull-right">
+                  <h3>7Digital.com - Head of Data</h3>
+                  <p>A major body of work was undertaken to eliminate the technical debt that existed in the company. We redesigned the existing servers and then migrated them to a brand new technology stack.</p>
+                  <ul>
+                    <li>We introduced source control, using git and Regate developer tools, and automated deployments, using Teamcity</li>
+                    <li>We created the data warehouse and We were in the process of moving all existing reporting from legacy systems (which there are 7) to the data warehouse.</li>
+                    <li>We Implemented a tabular cube in combination with excel, Powerpivot and Powerview.</li>
+                    <li>Implemented Tableau server within the company, created an installation for the company which allowed users to publish and share data, report requests to the Data team dropped by 90% after installing tableau.</li>
+                    <li>We re-engineered the entire SQL Server platform, this was a multi-year project which involved removing legacy code and data, We  eliminated over 2TB of superfluous data through auditing and planned to remove even more through archiving of data.</li>
+                    <li>We migrated all existing servers from different hardware using SQL Server 2008r2 Standard to a standard hardware platform using SQL Server 2012 enterprise.</li>
+                    <li>Removed the old HA solution of merge replication and moved  everything to Always on.</li>
+                    <li>Converted all tables to double byte character across all SQL servers so 7digital could handle non Latin based characters.</li>
+                    <li>Implemented a new security model for all SQL server instances moving away from SQL logins based model to a role based model using AD groups.</li>
 
-<body>
-	<header>
-		<h1>Padraig O'Brien CV</h1>
-		<h2></h2>
-	</header>
+                  </ul>
+                </div>
+              </li>
+              <li>
+                <div class="year pull-left">2012 - 2007</div>
+                <div class="description pull-right">
+                  <h3>Merril Lynch - Principal Prime Brokerage analyst</h3>
+                  <ul>
+                    <li>I was responsible for managing and co-ordinating the global support teams of the prime brokerage team in London.</li>
+                    <li>I was part of a team that is responsible for brownfield development and making discretionary enhancements to the existing transaction manager, books and records, client charging and report distribution applications.</li>
+                    <li>I was part of the team that did an in place upgrade from 2008 to 2008r2.</li>
+                    <li>All these applications use SQL Server 2008, 2008 r2 or SQL Server 2000 as the RDMS.</li>
+                    <li>I was also involved in major outages of these applications when there were problems relating to SQL server performance, mainly analysing query plans and providing recommendations on temporary workarounds and permanent fix’s.</li>
+                  <li>I also developed/ supported a small number (but ever increasing) of c# applications that were being developed to replace aging VB 6 applications.</li>
+                  </ul>
+                </div>
+              </li>
+              <li>
+                <div class="year pull-left">2007 - 2006</div>
+                <div class="description pull-right">
+                  <h3>Leaseplan - Senior SQL Server developer</h3>
+                 <ul>
+                   <li>I was a member of a team whose task it was to carry out enhancements to the global fleet management system for Leaseplan and its subsidiary companies</li>
+                   <li>Specify changes to resolve recurring problems within software applications.</li>
+                   <li>Carry out data corrections and corrections of application faults, to
+                   produce failure free data and applications without problems.</li>
+                   <li>Develop application test plans, document and undertake testing to continuously improve application stability, reliability and operability</li>
+                   <li>Support internal customers during the acceptance testing of new or
+                   modified software ensuring applications achieve optimal  performance</li>
+                   <li>The application is developed in SQL Server 2000 with ASP as the frontend.</li>
+                 </ul>
+                </div>
+              </li>
+              <li>
+                <div class="year pull-left">2006 - 2001</div>
+                <div class="description pull-right">
+                  <h3>Siemens -Software developer</h3>
+                  <p>This role involved working within the Applications development team to provide technical support, technical consultancy, solution design and implementation covering all components of the Siemens Business Services Call Management application.</p>
+                  <p>The technologies used to accomplish this were</p>
+                  <ul>
 
-	<fieldset>
-		<section id="chart"></section>
-		
-		<p>data center:<br><span id="region"></span></p>
+                    <li>Windows 2000 Server</li>
+                    <li>Oracle 9i/10g</li>
+                    <li>Applix V9</li>
+                  </ul>
+                  <p>In October of 2005 I was made project manager of replacing all of the hardware for the United Kingdom and Ireland, This project was a six month project which was completed ahead of time and within budget.</p>
 
-		<legend>
-			Select a data center location:<br>
-			<select id="dataCenterPicker">
-				<option value="amsterdam">Amsterdam</option> 
-				<option value="california">California</option>
-				<option value="ireland">Ireland</option>
-				<option value="saopaulo">São Paulo</option>
-				<option value="tokyo">東京 (Tokyo)</option>
-				<option value="virginia">Virginia</option>
-			</select>
+                  <p> Other responsibilities of this job was to streamline the automation of the data and reporting processes, to act as a central point of contact for all data reporting requirements, Administer relevant application databases, working with the Network administrator to ensure regular database maintenance. To achieve this a combination of the following were used </p>
+                  <ul>
+                    <li>Windows Server</li>
+                    <li>Crystal Reports</li>
+                    <li>SQL Server 7 and 2000</li>
+                    <li>Visual Basic and ASP</li>
+                    <li>Siemens HiCom/Hipath</li>
+                    </ul>
+                  <p>Due to the small nature of the IT department it was required to be flexible enough to support issues outside of my main job description to this end I also gained significant knowledge in the following
+                  </p>
+                  <ul>
+                    <li>Microsoft Exchange</li>
+                    <li>Microsoft Proxy</li>
+                    <li>Active Directory</li>
+                    <li>Siemens HiCom</li>
+                    <li>Siebel</li>
+                    </ul>
 
-			<div data-category="North America" class="noram"></div>
-			<div data-category="Latin America and the Caribbean" class="latam"></div>
-			<div data-category="Europe" class="eu"></div>
-			<div data-category="Africa" class="africa"></div>
-			<div data-category="Asia" class="asia"></div>
-			<div data-category="Oceania" class="oceania"></div>
-			<div data-category="Unclassified" class="other"></div>
+                </div>
+              </li>
+              <li>
+                <div class="year pull-left"> 2001</div>
+                <div class="description pull-right">
+                  <h3>CIT - BSC Computer applications</h3>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <!-- EXPERIENCES -->
+          <!--<div class="box">-->
+            <!--<h2>Experiences</h2>-->
+            <!--<div class="job clearfix">-->
+              <!--<div class="col-xs-3">-->
+                <!--<div class="where">Google</div>-->
+                <!--<div class="year">2013 - 2014</div>-->
+              <!--</div>-->
+              <!--<div class="col-xs-9">-->
+                <!--<div class="profession">Front-end developer / php programmer</div>-->
+                <!--<div class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, et, illum perferendis veritatis velit sunt similique qui magni totam harum tempore eius laboriosam accusantium necessitatibus voluptatum? Enim, itaque dignissimos quia.</div>-->
+              <!--</div>-->
+            <!--</div>-->
+            <!--<div class="job clearfix">-->
+              <!--<div class="col-xs-3">-->
+                <!--<div class="where">Twitter</div>-->
+                <!--<div class="year">2012</div>-->
+              <!--</div>-->
+              <!--<div class="col-xs-9">-->
+                <!--<div class="profession">Web Developer</div>-->
+                <!--<div class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam, nihil sit nemo voluptatem praesentium. Quia, qui facere consectetur libero asperiores fugiat consequuntur deserunt culpa repudiandae sed quidem voluptas explicabo soluta.</div>-->
+              <!--</div>-->
+            <!--</div>-->
+          <!--</div>-->
+        </div>
+        <div class="col-xs-12 col-sm-5">
+          <!-- CONTACT -->
+          <div class="box clearfix">
+            <h2>Contact</h2>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fa fa-phone fa-fw"></span></div>
+              <div class="title only pull-right">+353 868877058</div>
+            </div>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fa fa-envelope fa-fw"></span></div>
+              <div class="title only pull-right">padraig@padraigobrien.com</div>
+            </div>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fa fa-twitter fa-fw"></span></div>
+              <div class="title pull-right">Twitter</div>
+              <div class="description pull-right">https://twitter.com/podgeypoos79</div>
+            </div>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fa fa-facebook fa-fw"></span></div>
+              <div class="title pull-right">Facebook</div>
+              <div class="description pull-right">https://www.facebook.com/podgeypoos</div>
+            </div>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fa fa-skype fa-fw"></span></div>
+              <div class="title pull-right">Skype</div>
+              <div class="description pull-right">podgeypoos</div>
+            </div>
+          </div>
+          <!-- SKILLS -->
+          <div class="box">
+            <h2>Skills (out of 100)</h2>
+            <div class="btn-toolbar">
+            <button type="button" class="btn btn-danger">Management <span class="badge">100</span></button>
+            <button type="button" class="btn btn-danger">T-SQL <span class="badge">100</span></button>
+            <button type="button" class="btn btn-danger">SQL Server 2012 <span class="badge">100</span></button>
+            <button type="button" class="btn btn-danger">SQL Server 2008 R2<span class="badge">100</span></button>
+            <button type="button" class="btn btn-danger">Kanban <span class="badge">100</span></button>
+            <button type="button" class="btn btn-danger">Agile <span class="badge">100</span></button>
+            <button type="button" class="btn btn-danger">Scrum <span class="badge">100</span></button>
+            <button type="button" class="btn btn-danger">HTML <span class="badge">100</span></button>
+            <button type="button" class="btn btn-danger">MongoDB <span class="badge">60</span></button>
+            <button type="button" class="btn btn-danger">CSS <span class="badge">70</span></button>
+            <button type="button" class="btn btn-danger">jQuery <span class="badge">40</span></button>
+            <button type="button" class="btn btn-danger">Strategic thinking <span class="badge">90</span></button>
+            <button type="button" class="btn btn-danger">Leadership <span class="badge">90</span></button>
+            <button type="button" class="btn btn-danger">Lean <span class="badge">100</span></button>
+            <button type="button" class="btn btn-danger">EMR <span class="badge">40</span></button>
+            <button type="button" class="btn btn-danger">Cassandra <span class="badge">40</span></button>
+            <button type="button" class="btn btn-danger">dynamoDB <span class="badge">60</span></button>
+            <button type="button" class="btn btn-danger">Redshift <span class="badge">50</span></button>
+            <button type="button" class="btn btn-danger">Tableau <span class="badge">60</span></button>
+            <button type="button" class="btn btn-danger">C# <span class="badge">60</span></button>
+            <button type="button" class="btn btn-danger">C <span class="badge">70</span></button>
+            <button type="button" class="btn btn-danger">VB <span class="badge">60</span></button>
+            <button type="button" class="btn btn-danger">Javascript <span class="badge">90</span></button>
+            <button type="button" class="btn btn-danger">NoSQL <span class="badge">80</span></button>
+            <button type="button" class="btn btn-danger">PL-SQL <span class="badge">30</span></button>
+            <button type="button" class="btn btn-danger"> AngularJS <span class="badge">90</span></button>
+            <button type="button" class="btn btn-danger">NodeJS <span class="badge">60</span></button>
+            <button type="button" class="btn btn-danger">MeteorJS <span class="badge">70</span></button>
+            <button type="button" class="btn btn-danger">Relational modelling <span class="badge">100</span></button>
+            <button type="button" class="btn btn-danger">Dimenional modelling(Kimball and Inmon) <span class="badge">100</span></button>
+            <button type="button" class="btn btn-danger">Data Warehousing <span class="badge">100</span></button>
+            <button type="button" class="btn btn-danger">SSIS <span class="badge">80</span></button>
+            <button type="button" class="btn btn-danger">SSRS <span class="badge">80</span></button>
+            <button type="button" class="btn btn-danger">CSS <span class="badge">80</span></button>
+            <button type="button" class="btn btn-danger">JQuery <span class="badge">60</span></button>
+            <button type="button" class="btn btn-danger">HTML <span class="badge">100</span></button>
+            <button type="button" class="btn btn-danger">Bootstrap <span class="badge">100</span></button>
+            <button type="button" class="btn btn-danger">ITIL <span class="badge">50</span></button>
+            <button type="button" class="btn btn-danger">AWS <span class="badge">70</span></button>
+            <button type="button" class="btn btn-danger">Machine Learning <span class="badge">50</span></button>
+            <button type="button" class="btn btn-danger">Recomendation systems <span class="badge">60</span></button>
+            <button type="button" class="btn btn-danger">Postgresql <span class="badge">30</span></button>
+            <button type="button" class="btn btn-danger">Git <span class="badge">70</span></button>
+            <button type="button" class="btn btn-danger">Teamcity <span class="badge">80</span></button>
+            <button type="button" class="btn btn-danger">Cordova <span class="badge">60</span></button>
+            <button type="button" class="btn btn-danger">Swift <span class="badge">60</span></button>
+            <button type="button" class="btn btn-danger">Redgate tools <span class="badge">70</span></button>
+              <!-- LANGUAGES -->
+             </div>
+            </div>
+<div class="box">
+  <h2>Qualifications and Training</h2>
+  <button type="button" class="btn btn-danger">MCSA in SQL Server 2012</button>
+  <button type="button" class="btn btn-danger">MongoDB for DBA</button>
+  <button type="button" class="btn btn-danger">MongoDB for developers.</button>
+  <button type="button" class="btn btn-danger">SQLSkills Imersion Event, hosted by Paul Randall</button>
+  <button type="button" class="btn btn-danger">Building Silverlight 4 applications www.qa.com</button>
+  <button type="button" class="btn btn-danger">Introduction to the C# Programming language www.qa.com</button>
+  <button type="button" class="btn btn-danger">Z0-007: Introduction to Oracle9i: SQL</button>
 
-			<input type="button" id="toggle" value="Stop me!">
-		</legend>
-	</fieldset>
+</div>
+          <div class="box">
+            <h2>Languages</h2>
+            <div id="language-skills">
+              <div class="skill">English <div class="icons pull-right"><div style="width: 100%;" class="icons-red"></div></div></div>
+              <div class="skill">German <div class="icons pull-right"><div style="width: 20%;" class="icons-red"></div></div></div>
+            </div>
+          </div>
+          <!-- HOBBIES -->
+          <div class="box">
+            <h2>Hobbies</h2>
+            <p>I have one big hobby and that hobby is reading, i try to get through a book a week. Check ot my goodread section below to see everything I have read and want to read</p>
+            <div>
+              <!-- Show static HTML/CSS as a placeholder in case js is not enabled - javascript include will override this if things work -->
+              <style type="text/css" media="screen">
+                .gr_custom_container_1441144458 {
+                  /* customize your Goodreads widget container here*/
+                  border: 1px solid gray;
+                  border-radius:10px;
+                  padding: 10px 5px 10px 5px;
+                  background-color: #FFFFFF;
+                  color: #000000;
+                  width: 300px
+                }
+                .gr_custom_header_1441144458 {
+                  /* customize your Goodreads header here*/
+                  border-bottom: 1px solid gray;
+                  width: 100%;
+                  margin-bottom: 5px;
+                  text-align: center;
+                  font-size: 120%
+                }
+                .gr_custom_each_container_1441144458 {
+                  /* customize each individual book container here */
+                  width: 100%;
+                  clear: both;
+                  margin-bottom: 10px;
+                  overflow: auto;
+                  padding-bottom: 4px;
+                  border-bottom: 1px solid #aaa;
+                }
+                .gr_custom_book_container_1441144458 {
+                  /* customize your book covers here */
+                  overflow: hidden;
+                  height: 60px;
+                  float: left;
+                  margin-right: 4px;
+                  width: 39px;
+                }
+                .gr_custom_author_1441144458 {
+                  /* customize your author names here */
+                  font-size: 10px;
+                }
+                .gr_custom_tags_1441144458 {
+                  /* customize your tags here */
+                  font-size: 10px;
+                  color: gray;
+                }
+                .gr_custom_rating_1441144458 {
+                  /* customize your rating stars here */
+                  float: right;
+                }
+              </style>
 
-	<footer>So what does this chart indicates? It shows message volume per country from an each PubNub data center.<br>
-	The size of each bubble corresponds with volume. To simplify the tutorial, the country names are not labeled, however, you can take a look at the generated source code in dev console to see abbriviated country codes as class name!</footer>
+              <div id="gr_custom_widget_1441144458">
+                <div class="gr_custom_container_1441144458">
+                  <h2 class="gr_custom_header_1441144458">
+                    <a href="https://www.goodreads.com/review/list/32961877-padraig-o-brien?shelf=read&amp;utm_medium=api&amp;utm_source=custom_widget" style="text-decoration: none;">Padraig's bookshelf</a>
+                  </h2>
+                  <div class="gr_custom_each_container_1441144458">
+                    <div class="gr_custom_book_container_1441144458">
+                      <a href="https://www.goodreads.com/review/show/994248842?utm_medium=api&amp;utm_source=custom_widget" title="Why Limit WIP (MemeMachine Series Book 2)"><img alt="Why Limit WIP" border="0" src="https://d.gr-assets.com/books/1413749836s/22433128.jpg" /></a>
+                    </div>
+                    <div class="gr_custom_title_1441144458">
+                      <a href="https://www.goodreads.com/review/show/994248842?utm_medium=api&amp;utm_source=custom_widget">Why Limit WIP</a>
+                    </div>
+                    <div class="gr_custom_author_1441144458">
+                      by <a href="https://www.goodreads.com/author/show/6653836.Jim_Benson">Jim  Benson</a>
+                    </div>
+                  </div>
+                  <div class="gr_custom_each_container_1441144458">
+                    <div class="gr_custom_book_container_1441144458">
+                      <a href="https://www.goodreads.com/review/show/994249128?utm_medium=api&amp;utm_source=custom_widget" title="Peopleware: Productive Projects and Teams"><img alt="Peopleware: Productive Projects and Teams" border="0" src="https://d.gr-assets.com/books/1386925395s/67825.jpg" /></a>
+                    </div>
+                    <div class="gr_custom_title_1441144458">
+                      <a href="https://www.goodreads.com/review/show/994249128?utm_medium=api&amp;utm_source=custom_widget">Peopleware: Productive Projects and Teams</a>
+                    </div>
+                    <div class="gr_custom_author_1441144458">
+                      by <a href="https://www.goodreads.com/author/show/38238.Tom_DeMarco">Tom DeMarco</a>
+                    </div>
+                  </div>
+                  <div class="gr_custom_each_container_1441144458">
+                    <div class="gr_custom_book_container_1441144458">
+                      <a href="https://www.goodreads.com/review/show/994250037?utm_medium=api&amp;utm_source=custom_widget" title="The Advantage: Why Organizational Health Trumps Everything Else in Business"><img alt="The Advantage: Why Organizational Health Trumps Everything Else in Business" border="0" src="https://d.gr-assets.com/books/1373997199s/12975375.jpg" /></a>
+                    </div>
+                    <div class="gr_custom_title_1441144458">
+                      <a href="https://www.goodreads.com/review/show/994250037?utm_medium=api&amp;utm_source=custom_widget">The Advantage: Why Organizational Health Trumps Everything Else in Business</a>
+                    </div>
+                    <div class="gr_custom_author_1441144458">
+                      by <a href="https://www.goodreads.com/author/show/11503.Patrick_Lencioni">Patrick Lencioni</a>
+                    </div>
+                  </div>
+                  <div class="gr_custom_each_container_1441144458">
+                    <div class="gr_custom_book_container_1441144458">
+                      <a href="https://www.goodreads.com/review/show/994250270?utm_medium=api&amp;utm_source=custom_widget" title="The Five Dysfunctions of a Team: A Leadership Fable"><img alt="The Five Dysfunctions of a Team: A Leadership Fable" border="0" src="https://d.gr-assets.com/books/1400841022s/21343.jpg" /></a>
+                    </div>
+                    <div class="gr_custom_title_1441144458">
+                      <a href="https://www.goodreads.com/review/show/994250270?utm_medium=api&amp;utm_source=custom_widget">The Five Dysfunctions of a Team: A Leadership Fable</a>
+                    </div>
+                    <div class="gr_custom_author_1441144458">
+                      by <a href="https://www.goodreads.com/author/show/11503.Patrick_Lencioni">Patrick Lencioni</a>
+                    </div>
+                  </div>
+                  <div class="gr_custom_each_container_1441144458">
+                    <div class="gr_custom_book_container_1441144458">
+                      <a href="https://www.goodreads.com/review/show/994250414?utm_medium=api&amp;utm_source=custom_widget" title="Death by Meeting: A Leadership Fable...about Solving the Most Painful Problem in Business"><img alt="Death by Meeting: A Leadership Fable...about Solving the Most Painful Problem in Business" border="0" src="https://d.gr-assets.com/books/1348784131s/49040.jpg" /></a>
+                    </div>
+                    <div class="gr_custom_title_1441144458">
+                      <a href="https://www.goodreads.com/review/show/994250414?utm_medium=api&amp;utm_source=custom_widget">Death by Meeting: A Leadership Fable...about Solving the Most Painful Problem in Business</a>
+                    </div>
+                    <div class="gr_custom_author_1441144458">
+                      by <a href="https://www.goodreads.com/author/show/11503.Patrick_Lencioni">Patrick Lencioni</a>
+                    </div>
+                  </div>
+                  <br style="clear: both"/>
+                  <center>
+                    <a href="https://www.goodreads.com/"><img alt="goodreads.com" src="https://www.goodreads.com/images/widget/widget_logo.gif" style="border:0" /></a>
+                  </center>
+                  <noscript>
+                    Share <a href="https://www.goodreads.com/">book reviews</a> and ratings with Padraig, and even join a <a href="https://www.goodreads.com/group">book club</a> on Goodreads.
+                  </noscript>
+                </div>
 
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js" charset="utf-8"></script>
-	<script src="js/app.js"></script>
-</body>
+              </div>
+              <script src="https://www.goodreads.com/review/custom_widget/32961877.Padraig's%20bookshelf?cover_position=left&cover_size=small&num_books=5&order=a&shelf=read&show_author=1&show_cover=1&show_rating=0&show_review=0&show_tags=0&show_title=1&sort=date_added&widget_bg_color=FFFFFF&widget_bg_transparent=&widget_border_width=1&widget_id=1441144458&widget_text_color=000000&widget_title_size=medium&widget_width=medium" type="text/javascript" charset="utf-8"></script>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- JQUERY -->
+    <script src="js/jquery.min.js"></script>
+    <!-- BOOTSTRAP -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- SCRIPTS -->
+    <script src="js/scripts.js"></script>
+  </body>
 </html>
