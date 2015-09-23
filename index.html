@@ -49,7 +49,7 @@
                 <div class="description pull-right">
                   <h3>Wonga.com - Head of Data</h3>
                   <p>Besides the day to day management of the 30 strong data team I was responsible for coming up with a strategy of improving the quality of our data and data systems while also lowering the cost to operate them.</p>
-                  <p>This was not an easy task as the company had neglected the quality of its software for a long time.  Several programs of change were completed during my time there to achieve the above goals. </p>
+                  <p>Several programs of change were completed during my time there to achieve the above goals. </p>
                   <p>Some notable projects were the implementation of high availability into our production systems, It enabled us to have near 100% uptime and the completion of the migration project from the V2 system to the V3 system. </p>
                   <p>At the time I started in the company it did not need to be regulated but within a very short period of time it was apparent that this was going to change so several key projects had to be started around auditing.  </p>
                   <p>To lower our operating cost we started moving our infrastructure into Amazon web services. We also changed technologies where appropriate to open source , SQL Server to mongoDB.</p>
@@ -60,19 +60,9 @@
                 <div class="year pull-left">2014 - 2012</div>
                 <div class="description pull-right">
                   <h3>7Digital.com - Head of Data</h3>
-                  <p>A major body of work was undertaken to eliminate the technical debt that existed in the company. We redesigned the existing servers and then migrated them to a brand new technology stack.</p>
-                  <ul>
-                    <li>We introduced source control, using git and Regate developer tools, and automated deployments, using Teamcity</li>
-                    <li>We created the data warehouse and We were in the process of moving all existing reporting from legacy systems (which there are 7) to the data warehouse.</li>
-                    <li>We Implemented a tabular cube in combination with excel, Powerpivot and Powerview.</li>
-                    <li>Implemented Tableau server within the company, created an installation for the company which allowed users to publish and share data, report requests to the Data team dropped by 90% after installing tableau.</li>
-                    <li>We re-engineered the entire SQL Server platform, this was a multi-year project which involved removing legacy code and data, We  eliminated over 2TB of superfluous data through auditing and planned to remove even more through archiving of data.</li>
-                    <li>We migrated all existing servers from different hardware using SQL Server 2008r2 Standard to a standard hardware platform using SQL Server 2012 enterprise.</li>
-                    <li>Removed the old HA solution of merge replication and moved  everything to Always on.</li>
-                    <li>Converted all tables to double byte character across all SQL servers so 7digital could handle non Latin based characters.</li>
-                    <li>Implemented a new security model for all SQL server instances moving away from SQL logins based model to a role based model using AD groups.</li>
-
-                  </ul>
+                  <p>A major body of work was undertaken to transform the data platform. We stabilised, migrated it to brand new hardware, then redesigned the existing solution and finally started moving pieces to a new technology stack.</p>
+                  <p>The stack we started with was a collection of different versions of our DB technology(SQL Server), spread across a collection of eclectic hardware, we standardised the version to SQL Server 2012. We moved away from the HA solution of merge replication and implemented always on availability groups. </p>
+                  <p>After standardising the hardware and the software we got about to re-engineering the reporting solution that was in place, We implemented a new data warehouse using Kimball's design. We did a proof of concepts in Qlikview and Microsoft Sharepoint/SSRS to deliver our reporting. Neither were sufficient in providing a self service solution we desired. We finally found Tableau. The implementation of Tableau enabled out customers to build and design their own reports to their own needs while reducing the need to talk to the data engineers. tickets being logged by customers dropped by 80%.   </p>
                 </div>
               </li>
               <li>
