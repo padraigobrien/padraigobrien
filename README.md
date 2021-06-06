@@ -2,8 +2,7 @@
 
 ### 👨🏻‍💻 &nbsp;About Me
 
-Software engineering is my hobby
-Software management is my job
+Software engineering is my hobby, Software management is my job
 
 
 ### 🤝🏻 &nbsp;Connect with Me
